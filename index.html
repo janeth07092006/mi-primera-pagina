@@ -4,53 +4,54 @@
 <meta charset="UTF-8">
 <title>Mi Página</title>
 <style>
-  body {
-    background-color: #fff2b3;
-    font-family: Arial, sans-serif;
-  }
-  .contenedor {
-    display: flex;
-    justify-content: center;
-    margin-top: 80px;
-  }
-  .cuadro {
-    padding: 30px 20px;
-    width: 180px;
-    text-align: center;
-    border: 1px solid #555;
-  }
-  .c1 { background: #ffff99; }
-  .c2 { background: #66b2ff; }
-  .c3 { background: #b3d9ff; }
-  .c4 { background: #f2ccff; }
-  a {
-    color: #000;
-    text-decoration: underline;
-  }
+body {
+  background-color: #fff2b3;
+  font-family: Arial;
+  margin: 0;
+  padding: 20px;
+}
+.titulo {
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.fila {
+  display: flex;
+  justify-content: center;
+  gap: 0;
+}
+.caja {
+  border: 1px solid #333;
+  padding: 30px 15px;
+  width: 170px;
+  text-align: center;
+}
+.caja1 { background-color: #ffff99; }
+.caja2 { background-color: #66b2ff; }
+.caja3 { background-color: #b3d9ff; }
+.caja4 { background-color: #f2ccff; }
+a {
+  color: #000;
+  text-decoration: underline;
+}
 </style>
 </head>
 <body>
 
-<p style="margin-left:30px; font-weight:bold;">Página principal</p>
+<div class="titulo">Página principal</div>
 
-<div class="contenedor">
-
-  <div class="cuadro c1">
+<div class="fila">
+  <div class="caja caja1">
     <a href="Color-rojo.html">COLOR ROJO</a>
   </div>
-
-  <div class="cuadro c2">
+  <div class="caja caja2">
     <a href="Color-amarillo.html">COLOR AMARILLO</a>
   </div>
-
-  <div class="cuadro c3">
+  <div class="caja caja3">
     <a href="Color-azul.html">COLOR AZUL</a>
   </div>
-
-  <div class="cuadro c4">
+  <div class="caja caja4">
     <a href="color-verde.html">COLOR VERDE</a>
   </div>
-
 </div>
 
 </body>
