@@ -1,26 +1,57 @@
 <!DOCTYPE html>
- <html>
- <head>
- <meta charset="UTF-8">
- <title>Mi Página</title>
- </head>
- <body>
- <h1>HOLA SOY JANETH</h1>
- <table border="1" width="100%">
- <tr>
- <td style="background:#ffcccc; padding:25px; text-align:center;">
- <a href="Color-rojo.html" style="font-size:18px; color:black; text-decoration:none;">COLOR ROJO</a>
- </td>
- <td style="background:#ffffcc; padding:25px; text-align:center;">
- <a href="Color-amarillo.html" style="font-size:18px; color:black; text-decoration:none;">COLOR AMARILLO</a>
- </td>
- <td style="background:#ccffff; padding:25px; text-align:center;">
- <a href="Color-azul.html" style="font-size:18px; color:black; text-decoration:none;">COLOR AZUL</a>
- </td>
- <td style="background:#ccffcc; padding:25px; text-align:center;">
- <a href="color-verde.html" style="font-size:18px; color:black; text-decoration:none;">COLOR VERDE</a>
- </td>
- </tr>
- </table>
- </body>
- </html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Mi Página</title>
+<style>
+  body {
+    background-color: #fff2b3;
+    font-family: Arial, sans-serif;
+  }
+  .contenedor {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+  }
+  .cuadro {
+    padding: 30px 20px;
+    width: 180px;
+    text-align: center;
+    border: 1px solid #555;
+  }
+  .c1 { background: #ffff99; }
+  .c2 { background: #66b2ff; }
+  .c3 { background: #b3d9ff; }
+  .c4 { background: #f2ccff; }
+  a {
+    color: #000;
+    text-decoration: underline;
+  }
+</style>
+</head>
+<body>
+
+<p style="margin-left:30px; font-weight:bold;">Página principal</p>
+
+<div class="contenedor">
+
+  <div class="cuadro c1">
+    <a href="Color-rojo.html">COLOR ROJO</a>
+  </div>
+
+  <div class="cuadro c2">
+    <a href="Color-amarillo.html">COLOR AMARILLO</a>
+  </div>
+
+  <div class="cuadro c3">
+    <a href="Color-azul.html">COLOR AZUL</a>
+  </div>
+
+  <div class="cuadro c4">
+    <a href="color-verde.html">COLOR VERDE</a>
+  </div>
+
+</div>
+
+</body>
+</html>
